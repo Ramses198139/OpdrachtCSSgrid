@@ -25,7 +25,7 @@ header {
     align-items: center;
 }
 
-.text{
+.text {
     grid-area: text;
     display: flex;
     background: hsl(0, 100%, 64%);
@@ -33,7 +33,7 @@ header {
     border-style: solid;
 }
 
-.kleine-rechthoek{
+.kleine-rechthoek {
     grid-area: kleine-rechthoek;
     display: flex;
     background: hsl(0, 100%, 64%);
