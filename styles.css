@@ -23,7 +23,6 @@ header, .kleine-rechthoek, .grote-rechthoek, .vierkant, footer{
     align-items: center;
 }
 
-
 header {
     grid-area: header;
 }
