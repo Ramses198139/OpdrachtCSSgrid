@@ -15,9 +15,7 @@ body {
     "footer footer footer";
 }
 
-header {
-    grid-area: header;
-    display: flex;
+header, .kleine-rechthoek, .grote-rechthoek, .vierkant, footer{
     background: hsl(0, 100%, 64%);
     border-color: hsl(0, 100%, 0%);
     border-style: solid;
@@ -25,9 +23,13 @@ header {
     align-items: center;
 }
 
+
+header {
+    grid-area: header;
+}
+
 .text {
     grid-area: text;
-    display: flex;
     background: hsl(0, 100%, 64%);
     border-color: hsl(0, 100%, 0%);
     border-style: solid;
@@ -35,42 +37,18 @@ header {
 
 .kleine-rechthoek {
     grid-area: kleine-rechthoek;
-    display: flex;
-    background: hsl(0, 100%, 64%);
-    border-color: hsl(0, 100%, 0%);
-    border-style: solid;
-    justify-content: center;
-    align-items: center;
 }
 
 .grote-rechthoek {
     grid-area: grote-rechthoek;
-    display: flex;
-    background: hsl(0, 100%, 64%);
-    border-color: hsl(0, 100%, 0%);
-    border-style: solid;
-    justify-content: center;
-    align-items: center;
 }
 
 .vierkant {
     grid-area: vierkant;
-    display: flex;
-    background: hsl(0, 100%, 64%);
-    border-color: hsl(0, 100%, 0%);
-    border-style: solid;
-    justify-content: center;
-    align-items: center;
 }
 
 footer {
     grid-area: footer;
-    display: flex;
-    background: hsl(0, 100%, 64%);
-    border-color: hsl(0, 100%, 0%);
-    border-style: solid;
-    justify-content: center;
-    align-items: center;
 }
 
 @media only screen and (max-width: 375px) {
@@ -83,7 +61,6 @@ footer {
         "kleine-rechthoek"
         "grote-rechthoek"
         "vierkant"
-        "footer"
-    ;
+        "footer";
     }
 }
