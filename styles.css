@@ -16,11 +16,13 @@ body {
 }
 
 header, .kleine-rechthoek, .grote-rechthoek, .vierkant, footer{
+    color: hsl(0, 100%, 100%);
     background: hsl(0, 100%, 64%);
     border-color: hsl(0, 100%, 0%);
     border-style: solid;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 header {
@@ -28,6 +30,7 @@ header {
 }
 
 .text {
+    color: hsl(0, 100%, 100%);
     grid-area: text;
     background: hsl(0, 100%, 64%);
     border-color: hsl(0, 100%, 0%);
